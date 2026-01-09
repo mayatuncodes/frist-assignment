@@ -146,3 +146,170 @@ nav .menu a {
     padding: 16px 16px;
     cursor: pointer;
 }
+.brain-section {
+    background-color: #ffffff;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+}
+
+.section-header {
+    max-width: 1360px;
+    margin: 0 auto 44px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.section-header h2 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 32px;
+}
+.section-header p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+.feature-list {
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 24px;
+}
+.feature-card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    
+
+}
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.icon-circle img {
+    width: 32px;
+    height: 32px;
+    align-items: center;
+  
+
+}
+.feature-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    text-align: center;
+    padding: 16px;
+}
+.feature-card p {
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    margin: 0;
+}
+.solution-section {
+    background-color: #FFFFFF;
+    
+}
+.solution {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.solution-image {
+    width: 600px;
+    max-width: 100%;
+}
+.section-tag {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+.solution-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin: 12px 0 16px;
+}
+.solution-content p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.solution-points {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.solution-points li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #001931;
+    gap: 10px;
+    list-style-type: none;
+}
+.solution-points li::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-image: url("../assets/CheckCircle.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+}
+.cta-section {
+    padding: 100px;
+
+}
+.cta-box {
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow:  0px 12px 40px rgba(0, 0, 0, 0.04);
+}
+.cta-box h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.cta-box p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.cta-btn {
+    background: #469165;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-bottom: 16px;
+
+
+}
+
+
