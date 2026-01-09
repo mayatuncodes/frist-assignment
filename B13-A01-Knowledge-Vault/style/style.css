@@ -1,0 +1,55 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* Font */
+ /* Shared Style */
+.font-inter {
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+}
+.ligo {
+    width: 139px;
+    height: 60px;
+
+}
+.btn {
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+/* Main Style */
+header {
+    background-color: #FFFFFF;
+    padding-top: 16px;
+   
+}
+nav {
+    width: 85%;
+    max-width: 1360px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+  }
+nav .menu a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
