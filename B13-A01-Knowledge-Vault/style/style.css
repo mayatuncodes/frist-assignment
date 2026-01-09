@@ -10,7 +10,7 @@
    font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
 }
-.ligo {
+.lOgo {
     width: 139px;
     height: 60px;
 
@@ -23,6 +23,7 @@
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 /* Main Style */
@@ -52,4 +53,96 @@ nav .menu a {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
+}
+ /* Banner Section */
+ #banner {
+    width: 100%;
+    min-height: 674px;
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+   }
+ .banner-container {
+    width: 85%;
+    max-width: 1360PX;
+    padding: 115px 120px 179px 120px;
+    margin: 0 auto;
+    
+ }
+ .banner-content {
+    align-items: center;
+    text-align: center;
+} 
+.tag-btn {
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    border: none;
+    padding: 8px 12px;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+.tag-btn .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #469165;
+    border-radius: 50%;
+  
+}
+.banner-content h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: bold;
+}
+.banner-content h1 span {
+    color: #30B868;
+}
+.banner-content p {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 0;
+    text-align: center;
+}
+.banner-actions {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.primary-btn,
+.secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.primary-btn {
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 16px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 16px;
+    cursor: pointer;
 }
